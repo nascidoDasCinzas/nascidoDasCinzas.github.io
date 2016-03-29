@@ -1,0 +1,354 @@
+﻿*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url('embers.jpg');
+	background-size: cover;
+	background-attachment: fixed;	
+	padding-top: 150px;
+}
+
+.cabecalho{
+	height: 100px;
+	width: 100%;
+	background-color: #000000;
+	position: fixed;	
+	top: 0px;
+	left: 0px;
+	border-bottom: 5px ridge #FFFFFF;
+}
+
+p#titulo{
+	color: #FFFFFF;
+	font-family: "Colonna MT", "Times New Roman", Arial, sans-serif;
+	font-size: 48pt;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+p#subtitulo{
+	color: #FFFFFF;
+	font-family: Century, "Times New Roman", Arial, sans-serif;
+	font-size: 18pt;
+	text-align: center;
+	margin-top: -10px;
+}
+
+.corpo{
+	float: right;	
+	width: 70%;
+	margin-right: 50px;
+	margin-left: 25%;
+}
+
+.corpoTexto{	
+	font-size: 14pt;
+	font-family: "Century Gothic", "Times New Roman", Arial, sans-serif;
+	text-align: justify;
+	color: #FFFFFF;
+	background-color: rgba(0,0,0,.5);
+	padding: 35px;
+	margin: 0px 30px 50px 0px;
+	outline: #FFFFFF ridge 5px;
+	z-index: 1;
+}
+
+.corpoTitulo{	
+	font-size: 28pt;
+	font-family: "Century Gothic", "Times New Roman", Arial, sans-serif;
+	color: #FFFFFF;
+	background-color: rgba(0,0,0,.5);	
+	padding: 35px;
+	margin: 0px 30px 20px 0px;
+	outline: #FFFFFF ridge 5px;
+}
+
+#quizz{
+	margin-bottom: 50px;
+	outline: #FFFFFF ridge 5px;
+}
+
+.sideMenu{
+	border: #FFFFFF groove 5px;
+	border-left: #FFFFFF groove 10px;
+	border-right: #FFFFFF groove 10px;
+	padding: 5px;
+	float: left;
+	position: fixed;
+	width: 200px;
+	margin: -5px 50px 0px 50px;
+	background-color: #000000;
+	z-index: 2;
+}
+
+.menu{	
+	list-style: none;
+	display: block;
+}
+
+.menu li{
+	font-family: "Colonna MT", "Times New Roman", Arial, sans-serif;
+	font-size: 22pt;
+	text-align: center;
+	line-height: 35px;
+	border-bottom: #6b6b6b solid 2px;
+	color: #FFFFFF;	
+}
+
+.menu .noborder{
+	border: none;
+}
+
+.menu li a{		
+	text-decoration: none;
+	color: #FFFFFF;		
+	transition-duration: 0.5s;
+}
+
+.menu li a:hover{		
+	text-decoration: line-through;	
+	color: #606060;
+	transition-duration: 0.5s;
+}
+
+.submenus{
+	list-style: none;
+	display: none;
+	position: absolute;
+	left: 205px;
+	top: 40px;
+	border: #FFFFFF groove 5px;
+	border-left: #FFFFFF groove 10px;
+	border-right: #FFFFFF groove 10px;
+	padding: 5px;	
+	width: 200px;
+	z-index: 3;
+	background-color: #000000;
+}
+
+.submenus1{
+	list-style: none;
+	display: none;
+	position: absolute;
+	left: 205px;
+	top: 77px;
+	border: #FFFFFF groove 5px;
+	border-left: #FFFFFF groove 10px;
+	border-right: #FFFFFF groove 10px;
+	padding: 5px;	
+	width: 200px;
+	z-index: 3;
+	background-color: #000000;
+}
+
+.submenus2{
+	list-style: none;
+	display: none;
+	position: absolute;
+	left: 205px;
+	top: 114px;
+	border: #FFFFFF groove 5px;
+	border-left: #FFFFFF groove 10px;
+	border-right: #FFFFFF groove 10px;
+	padding: 5px;	
+	width: 200px;
+	z-index: 3;
+	background-color: #000000;
+}
+
+.submenus3{
+	list-style: none;
+	display: none;
+	position: absolute;
+	left: 205px;
+	top: 151px;
+	border: #FFFFFF groove 5px;
+	border-left: #FFFFFF groove 10px;
+	border-right: #FFFFFF groove 10px;
+	padding: 5px;	
+	width: 200px;
+	z-index: 3;
+	background-color: #000000;
+}
+
+.submenus4{
+	list-style: none;
+	display: none;
+	position: absolute;
+	left: 205px;
+	top: 188px;
+	border: #FFFFFF groove 5px;
+	border-left: #FFFFFF groove 10px;
+	border-right: #FFFFFF groove 10px;
+	padding: 5px;	
+	width: 200px;
+	z-index: 3;
+	background-color: #000000;
+}
+
+.menu li:hover .submenus{
+	display: block;	
+}
+
+.menu li:hover .submenus1{
+	display: block;	
+}
+
+.menu li:hover .submenus2{
+	display: block;	
+}
+
+.menu li:hover .submenus3{
+	display: block;	
+}
+
+.menu li:hover .submenus4{
+	display: block;	
+}
+
+.subniveis1{
+	list-style: none;
+	display: none;
+	position: absolute;
+	left: 205px;
+	top: -5px;
+	border: #FFFFFF groove 5px;
+	border-left: #FFFFFF groove 10px;
+	border-right: #FFFFFF groove 10px;
+	padding: 5px;	
+	width: 350px;
+	z-index: 3;
+	background-color: #000000;
+}
+
+.subniveis1 li{
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.submenus #B110:hover .subniveis1{
+	display: block;
+}
+
+.subniveis2{
+	list-style: none;
+	display: none;
+	position: absolute;
+	left: 205px;
+	top: -5px;
+	border: #FFFFFF groove 5px;
+	border-left: #FFFFFF groove 10px;
+	border-right: #FFFFFF groove 10px;
+	padding: 5px;	
+	width: 350px;
+	z-index: 3;
+	background-color: #000000;
+}
+
+.subniveis2 li{
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.subniveis3 li{
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.submenus #B1120:hover .subniveis2{
+	display: block;
+}
+
+.subniveis3{
+	list-style: none;
+	display: none;
+	position: absolute;
+	left: 205px;
+	top: -5px;
+	border: #FFFFFF groove 5px;
+	border-left: #FFFFFF groove 10px;
+	border-right: #FFFFFF groove 10px;
+	padding: 5px;	
+	width: 350px;
+	z-index: 3;
+	background-color: #000000;
+}
+
+.subniveis4{
+	list-style: none;
+	display: none;
+	position: absolute;
+	left: 205px;
+	top: 40px;
+	border: #FFFFFF groove 5px;
+	border-left: #FFFFFF groove 10px;
+	border-right: #FFFFFF groove 10px;
+	padding: 5px;	
+	width: 200px;
+	z-index: 3;
+	background-color: #000000;
+}
+
+.submenus #B2130:hover .subniveis3{
+	display: block;
+}
+
+.submenus1 #I110:hover .subniveis1{
+	display: block;
+}
+
+.submenus1 #I1120:hover .subniveis2{
+	display: block;
+}
+
+.submenus1 #I2130:hover .subniveis3{
+	display: block;
+}
+
+
+.submenus2 #A110:hover .subniveis1{
+	display: block;
+}
+
+.submenus2 #A1120:hover .subniveis2{
+	display: block;
+}
+
+.submenus2 #A2130:hover .subniveis3{
+	display: block;
+}
+
+.submenus4 #Pedras:hover .subniveis4{
+	display: block;
+}
+
+.linkDownL{
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-left: 25px;
+	margin-right: 10px
+}
+
+.linkDownR{
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-left: 10px;	
+}
+
+.linkDownL:hover, .linkDownR:hover{
+	text-decoration: underline;
+	color: #505050;
+	transition-duration: 0.5s;
+}
+
+.stoneIcon{
+	width: 80px;
+	height: auto;
+	border: #FFFFFF groove 3px;
+	margin-right: 15px;
+	float: left;	
+	vertical-align: middle;
+}
